@@ -9,4 +9,8 @@ $smarty->config_dir = "configs";
 $smarty->compile_dir = "templates_c";
 $smarty->template_dir = "templates";
 
+$nome = "School of Net";
+$smarty->assign('nome',$nome);
+$smarty->display('index.tpl');
+
 ?>
